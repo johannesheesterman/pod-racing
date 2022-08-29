@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/johannes/fun/pod-racing/Pod Racing.csproj": {}
+  },
+  "projects": {
+    "/home/johannes/fun/pod-racing/Pod Racing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/johannes/fun/pod-racing/Pod Racing.csproj",
+        "projectName": "Pod Racing",
+        "projectPath": "/home/johannes/fun/pod-racing/Pod Racing.csproj",
+        "packagesPath": "/home/johannes/.nuget/packages/",
+        "outputPath": "/home/johannes/fun/pod-racing/.mono/temp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/johannes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
