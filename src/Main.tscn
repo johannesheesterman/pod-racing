@@ -10,7 +10,7 @@ size = Vector2( 15, 15 )
 albedo_color = Color( 0, 0, 0, 1 )
 
 [sub_resource type="PlaneMesh" id=3]
-size = Vector2( 4, 4 )
+size = Vector2( 3, 3 )
 subdivide_width = 3
 subdivide_depth = 3
 
@@ -60,7 +60,7 @@ script = ExtResource( 2 )
 transform = Transform( 0.913796, 0.232061, -0.333353, 0.167964, 0.531359, 0.830329, 0.369817, -0.814743, 0.446576, -3.60075, 6.98613, 4.64525 )
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( -0.707107, -0.5, 0.5, 0, 0.707107, 0.707107, -0.707107, 0.5, -0.5, 14, 20, -14.232 )
+transform = Transform( 0.664179, -0.553208, 0.50282, 0.0187856, 0.684741, 0.728544, -0.747338, -0.474438, 0.465183, 13.8727, 20, 12.6548 )
 projection = 1
 size = 4.5
 far = 150.0
