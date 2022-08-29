@@ -1,9 +1,0 @@
-/home/johannes/fun/pod-racing/.mono/temp/obj/Debug/Pod Racing.csproj.AssemblyReference.cache
-/home/johannes/fun/pod-racing/.mono/temp/obj/Debug/Pod Racing.GeneratedMSBuildEditorConfig.editorconfig
-/home/johannes/fun/pod-racing/.mono/temp/obj/Debug/Pod Racing.AssemblyInfoInputs.cache
-/home/johannes/fun/pod-racing/.mono/temp/obj/Debug/Pod Racing.AssemblyInfo.cs
-/home/johannes/fun/pod-racing/.mono/temp/obj/Debug/Pod Racing.csproj.CoreCompileInputs.cache
-/home/johannes/fun/pod-racing/.mono/temp/bin/Debug/Pod Racing.dll
-/home/johannes/fun/pod-racing/.mono/temp/bin/Debug/Pod Racing.pdb
-/home/johannes/fun/pod-racing/.mono/temp/obj/Debug/Pod Racing.dll
-/home/johannes/fun/pod-racing/.mono/temp/obj/Debug/Pod Racing.pdb

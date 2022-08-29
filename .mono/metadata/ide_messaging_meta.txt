@@ -1,2 +1,0 @@
-﻿36809
-/usr/local/bin/godot
