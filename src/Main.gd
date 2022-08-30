@@ -24,11 +24,9 @@ func move_to_position(node, grid_pos):
 	var newPos = grid_to_world(grid_pos)
 	node.transform.origin = Vector3(newPos.x, 0, newPos.y)
 	
-func _on_Grid_grid_clicked(position):
+func _on_Grid_clicked(position):
 	print(position)
-
 	move_to_position(player1Meshes[position.x], position)
 
 func _ready():
 	initialize_players();
-	

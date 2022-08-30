@@ -75,5 +75,5 @@ projection = 1
 size = 4.5
 far = 150.0
 
-[connection signal="grid_clicked" from="Grid" to="." method="_on_Grid_grid_clicked"]
+[connection signal="clicked" from="Grid" to="." method="_on_Grid_clicked"]
 [connection signal="input_event" from="Grid/StaticBody" to="Grid" method="_on_StaticBody_input_event"]
