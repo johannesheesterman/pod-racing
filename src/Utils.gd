@@ -1,5 +1,7 @@
 extends Node
 
+
+
 static func world_to_grid(position: Vector3) -> Vector2:
 	return Vector2(round(position.x) + 1, (-round(position.z) + 1))
 	
