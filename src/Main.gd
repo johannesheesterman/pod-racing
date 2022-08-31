@@ -30,8 +30,6 @@ func move_to_position(node, grid_pos):
 	node.transform.origin = Vector3(newPos.x, 0, newPos.y)
 	
 func is_valid_move(start: Vector2, target: Vector2):
-	print([start, target])
-
 	if start.x != target.x: return false
 	if target.y < start.y: return false
 	if grid[target.x][target.y] != Tile.Empty: return false
@@ -42,9 +40,12 @@ func is_valid_move(start: Vector2, target: Vector2):
 	return false
 	
 	
-func _on_Grid_clicked(position):
-	if is_valid_move(Utils.world_to_grid(player1Meshes[position.x].transform.origin), position):
-		move_to_position(player1Meshes[position.x], position)
+func _on_Grid_clicked(new_pos):
+	var old_pos = Utils.world_to_grid(player1Meshes[new_pos.x].transform.origin)
+	if is_valid_move(old_pos, new_pos):
+		move_to_position(player1Meshes[new_pos.x], new_pos)
+		grid[old_pos.x][old_pos.y] = Tile.Empty
+		grid[new_pos.x][new_pos.y] = Tile.Player1
 
 func _ready():
 	initialize_grid()
